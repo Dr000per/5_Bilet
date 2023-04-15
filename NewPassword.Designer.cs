@@ -92,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 182);
+            this.ClientSize = new System.Drawing.Size(257, 183);
             this.Controls.Add(this.button_close);
             this.Controls.Add(this.button_accept);
             this.Controls.Add(this.label2);
@@ -100,7 +100,7 @@
             this.Controls.Add(this.textBox_new_pass);
             this.Controls.Add(this.textBox_log);
             this.Name = "NewPassword";
-            this.Text = "NewPassword";
+            this.Text = "Сброс пароля";
             this.Load += new System.EventHandler(this.NewPassword_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
